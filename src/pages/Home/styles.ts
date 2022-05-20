@@ -5,5 +5,5 @@ export const Container = styled.main`
     background-color: ${theme.colors.white};
   `}
   width: 100vw;
-  height: 100vh;
+  height: 100%;
 `;

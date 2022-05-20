@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 
-export const Container = styled.section`
-  ${({theme}) => css`
+export const Container = styled.div`
+  ${({ theme }) => css`
     background-color: ${theme.colors.primary[100]};
 
     h1 {
@@ -11,9 +11,10 @@ export const Container = styled.section`
       font-size: 48px;
     }
   `}
-  
+
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 
